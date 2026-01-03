@@ -1,0 +1,24 @@
+manifestVersion: 1
+
+id: my-custom-store-speedtest-tracker
+name: Speedtest Tracker
+tagline: Self-hosted Speedtest Tracker
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/speedtest-tracker-logo.png
+category: Monitoring
+
+version: "1.0.0"
+port: 3000
+
+description: >-
+  Self-hosted Speedtest Tracker running inside Umbrel.
+  Tracks internet speed over time with your own server.
+
+developer: YourName
+website: https://github.com/linuxserver/docker-speedtest-tracker
+repo: https://github.com/yourname/custom-store
+submitter: YourName
+submission: https://github.com/yourname/custom-store
+support: https://github.com/yourname/custom-store/issues
+
+gallery:
+  - https://github.com/alexjustesen/speedtest-tracker/raw/main/.github/screenshots/dashboard.jpeg

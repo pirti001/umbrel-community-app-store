@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: my-custom-store-stremio-service_server_1
+      APP_PORT: 12470
+
+  server:
+    image: tsaridas/stremio-docker:latest
+    ports:
+      - "12470:12470"
+    user: root
+    environment:
+      NO_CORS: 1
+      AUTO_SERVER_URL: 1
+      IPADDRESS: 192.168.100.48
+    volumes:
+      - ${APP_DATA_DIR}/stremio:/root/.stremio-server

@@ -1,0 +1,27 @@
+manifestVersion: 1
+
+id: my-custom-store-stremio-service
+name: Stremio Service
+tagline: Self-hosted Stremio streaming server
+icon: https://www.stremio.com/website/stremio-purple-small.png
+category: Media
+
+version: "4.20.12"
+port: 12470
+
+description: >-
+  Self-hosted Stremio server running inside Umbrel.
+  Allows you to use Stremio clients with your own backend.
+
+developer: Stremio
+website: https://www.stremio.com/download-service
+repo: https://github.com/tsaridas/stremio-docker
+
+gallery:
+  - https://blog.stremio.com/wp-content/uploads/2023/06/stremio-service4-1024x576.png
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+
