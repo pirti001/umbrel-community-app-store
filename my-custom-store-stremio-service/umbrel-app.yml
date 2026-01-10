@@ -6,8 +6,8 @@ tagline: Self-hosted Stremio streaming server
 icon: https://www.stremio.com/website/stremio-purple-small.png
 category: Media
 
-version: "4.20.12"
-port: 12470
+version: "4.20.16"
+port: 11470
 
 description: >-
   Self-hosted Stremio server running inside Umbrel.
@@ -24,4 +24,3 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-
